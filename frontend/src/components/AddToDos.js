@@ -5,6 +5,7 @@ import Error from "./Error";
 import { useDispatch, useSelector } from "react-redux";
 import { userLoginReducer } from "../Reducers/UserReducers";
 import { addToList } from "../Actions/toDosAction";
+import "./AddToDos.css"
 const AddToDos = ({ history }) => {
   const [startdate, setStartDate] = useState(Date.now());
   const [errorDate, setErrorDate] = useState(Date.now());
@@ -16,7 +17,7 @@ const AddToDos = ({ history }) => {
 
   return (
     <div>
-      <div class="ui styled fluid accordion">
+      <div class="ui styled fluid accordion" id = "grey-card-container">
         <div id="openAddForm" class="title">
           <button
           class="ui primary button"
@@ -104,6 +105,8 @@ const AddToDos = ({ history }) => {
                   Add to the list
                 </button>
               ) : null}
+               <button className="ui button secondary"> Calendar</button>
+              <button className="ui button secondary" > Mylist </button>
             </form>
           </div>
         </div>
