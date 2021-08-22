@@ -12,6 +12,7 @@ const App = () => {
       <HeaderScreen />
       <br />
       <br />
+      {/* <AddToDos/> */}
       <Route path="/" exact component={ToDoListScreen} />
       <Route path="/login"  component={Login} />
       <Route path="/register"  component={RegisterScreen} />
