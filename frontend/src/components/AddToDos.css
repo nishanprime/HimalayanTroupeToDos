@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&family=Merriweather:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap");
+.App {
+  text-align: center;
+}
+
+body {
+  background: #79AEAB;
+}
+#openAddForm{
+  background-color: #79AEAB;
+}
+#grey-card-container{
+  background-color: #79AEAB;
+}
+
+* {
+  font-family: "Merriweather", sans-serif;
+}
+/* just for git check */
+
+h1 {
+  font-size: 45px;
+  color: #FEE1E8;
+  text-align: center;
+}
+
+label{
+    color: #707070;
+}
+button {
+  cursor: pointer;
+}
+
+
+#contentBox {
+  max-width: 725px;
+  margin: auto;
+  border-radius: 5px;
+  background:#FEE1E8;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  padding: 40px 50px 30px;
+  border-radius: 5px;
+}
+.title-container,
+.desc-container{
+    max-width: 725px;
+  margin: auto;
+  border-radius: 5px;
+  background: #FEE1EB;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  padding: 40px 50px 30px;
+  border-radius: 5px;
+}
+
+.active-button {
+  background: #fcba02;
+  color: #fff;
+}
+
+#showIssues:hover{
+  color: #fcba02;
+}
+
+#addIssue:hover{
+  filter: brightness(80%);
+}
+
+form button {
+    border-radius: 10px;
+    background:#FEE1E8 ;
+    color: #707070;
+    border: none;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    padding: 15px 30px;
+    font-size: 10px;
+    margin-top: 15px;
+}
+form button:hover{
+    filter: brightness(80%);
+}
+/* Added this in new branch */
